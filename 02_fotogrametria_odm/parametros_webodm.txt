@@ -1,0 +1,13 @@
+CONFIGURACIÓN DE PROCESAMIENTO FOTOGRAMÉTRICO (WebODM)
+======================================================
+Total de imágenes procesadas: >1,800 TIFFs radiométricos (32-bit float, 1 banda)
+Sistema de Referencia Espacial: WGS 1984 UTM Zone 19S (EPSG:32719)
+
+Parámetros aplicados en WebODM para superar la baja textura térmica:
+--feature-quality: ultra
+--matcher-type: flann
+--min-num-features: 10000
+--orthophoto-resolution: 5.0 (cm/píxel)
+--orthophoto-no-tiled: true
+--pc-quality: high
+--radiometric-calibration: none (Mantiene los grados Celsius puros extraídos del SDK)
